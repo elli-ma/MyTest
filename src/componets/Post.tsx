@@ -16,7 +16,7 @@ function Post({ id }: { id: number }) {
       <p className="text-gray-700 text-base truncate h-20 overflow-hidden">
         {data?.body}
       </p>
-      <Button to={"/post/" + id} title="просмотр" />
+      <Button to={"MyTest/post/" + id} title="просмотр" />
     </div>
   )
 }

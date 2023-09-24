@@ -19,7 +19,7 @@ export default function PostPage() {
           <h3 className="text-3xl font-semibold mb-4">{data?.title}</h3>
           <p className="text-lg">{data?.body}</p>
         </div>
-        <Button to="/" title="Назад" />
+        <Button to="MyTest/" title="Назад" />
       </div>
     </div>
   )
